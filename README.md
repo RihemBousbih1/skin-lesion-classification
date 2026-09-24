@@ -171,6 +171,4 @@ Melanoma factor chosen on validation for each target sensitivity, then applied t
 
 Model weights: `<link to Hugging Face / Kaggle>` (too large for GitHub).
 
-## Author
 
-`<name>` — `<links: GitHub, LinkedIn, Kaggle>`
