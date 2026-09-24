@@ -176,5 +176,5 @@ Model weights: [huggingface.co/RihemBousbih/skin-lesion-effnet-convnext](https:/
 
 ## Author
 
-**Rihem Bousbih** — [GitHub](https://github.com/RihemBousbih1) · [Kaggle](https://www.kaggle.com/rihembousbih) · [Hugging Face](https://huggingface.co/RihemBousbih) · [LinkedIn](www.linkedin.com/in/rihembousbih) 
+**Rihem Bousbih** — [GitHub](https://github.com/RihemBousbih1) · [Kaggle](https://www.kaggle.com/rihembousbih) · [Hugging Face](https://huggingface.co/RihemBousbih) · [LinkedIn](https://linkedin.com/in/rihembousbih) 
 
