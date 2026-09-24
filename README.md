@@ -80,6 +80,7 @@ Run in this order on Kaggle; each notebook reads the outputs of the previous one
 | 03 | `03_phase3.ipynb` | Final fine-tuning phase (mixup + balanced sampling) with automatic restart on NaN; checkpoint ensemble (rejected on validation) | ~4.5 h |
 | 04 | `04_convnext_ensemble.ipynb` | Second, architecturally different backbone (ConvNeXt-Tiny) and ensemble; paired bootstrap vs single model | ~6 h |
 | 05 | `05_final.ipynb` | Part 1: patient metadata stacking (negative result). Part 2: NaN diagnosis + `NanGuard`, ConvNeXt continuation, EfficientNet-B4, ensemble selection on validation, final calibration, test and PH2 | ~6 h |
+| 06 | `06_demo_gradio.ipynb` | Interactive demo (Gradio): prediction, calibrated decision, Grad-CAM; downloads the weights from Hugging Face | optional |
 
 > Note: checkpoint files named `resnet50_cbam_*.keras` actually contain the **EfficientNetV2-S + CBAM** model (the name
 > is a leftover of an earlier ResNet50 prototype and is kept because later notebooks load these paths).
@@ -169,6 +170,10 @@ Melanoma factor chosen on validation for each target sensitivity, then applied t
 2. Run the notebooks in order, each with the outputs of the previous ones as inputs.
 3. Final metrics are saved in `run_config_final.json` and per-image predictions in `final_predictions_test.csv`.
 
-Model weights: `<link to Hugging Face / Kaggle>` (too large for GitHub).
+Model weights: [huggingface.co/RihemBousbih/skin-lesion-effnet-convnext](https://huggingface.co/RihemBousbih/skin-lesion-effnet-convnext) (too large for GitHub).
 
+---
 
+## Author
+
+**Rihem Bousbih** — [GitHub](https://github.com/RihemBousbih1) · [Kaggle](https://www.kaggle.com/rihembousbih) · [Hugging Face](https://huggingface.co/RihemBousbih) · LinkedIn: ([www.](https://linkedin.com/in/rihembousbih)
