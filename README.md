@@ -18,6 +18,9 @@ and a Grad-CAM heatmap of the regions that drove the prediction.
 
 - **Run it yourself (free, no install):** [Kaggle notebook](https://www.kaggle.com/code/rihembousbih/skin-lesion-classification-live-demo) → *Copy & Edit* → *Run All* → open the `gradio.live` link.
 - **Model weights:** [huggingface.co/RihemBousbih/skin-lesion-effnet-convnext](https://huggingface.co/RihemBousbih/skin-lesion-effnet-convnext)
+
+https://github.com/user-attachments/assets/5d082ef1-07ec-45c1-9e2f-60a0e0b022ab
+
 ---
 
 ## Final results (held-out test set, 3,738 images)
