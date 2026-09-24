@@ -11,6 +11,14 @@ what did *not* work.
 > ⚠️ Research project only. This is **not** a medical device and must not be used for diagnosis.
 
 ---
+## 🔬 Demo
+
+Upload a dermoscopic image → calibrated class probabilities, melanoma decision at the clinical operating point,
+and a Grad-CAM heatmap of the regions that drove the prediction.
+
+- **Run it yourself (free, no install):** [Kaggle notebook](https://www.kaggle.com/code/rihembousbih/skin-lesion-classification-live-demo) → *Copy & Edit* → *Run All* → open the `gradio.live` link.
+- **Model weights:** [huggingface.co/RihemBousbih/skin-lesion-effnet-convnext](https://huggingface.co/RihemBousbih/skin-lesion-effnet-convnext)
+---
 
 ## Final results (held-out test set, 3,738 images)
 
